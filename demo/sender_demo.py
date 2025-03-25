@@ -1,6 +1,11 @@
 # secure_messaging_system/demo/sender_demo.py
 
 import os
+import sys
+
+# Add the project root (where src/ is located) to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from src.messaging.sender import send_secure_message
 from src.utils.logger import info
 
