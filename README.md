@@ -91,6 +91,9 @@ python demo/receiver_demo.py
 
 ## Sample Output Artifacts
 
+![image](https://github.com/user-attachments/assets/901a3969-2488-40e1-a271-353f71d92a6a)
+
+
 - `messages/original_message.txt` – Plaintext
 - `messages/encrypted_message.bin` – AES ciphertext
 - `messages/signature.bin` – RSA signature
